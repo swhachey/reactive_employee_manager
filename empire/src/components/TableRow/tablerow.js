@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Tablerow() {
+function Tablerow(props) {
     return (
        <tr className="table-info">
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row">{props.id + 1}</th>
+      <td>{props.first}</td>
+      <td>{props.last}</td>
+      <td>{props.email}</td>
     </tr>
     )
 }

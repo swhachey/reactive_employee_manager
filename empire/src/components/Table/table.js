@@ -1,9 +1,9 @@
 import React from 'react'
 import Tablerow from "../TableRow/tablerow"
 
-function Table() {
+function Table(props) {
     return (
-        <div className="container">
+       
             <table className="table">
   <thead>
     <tr className="table-primary">
@@ -14,10 +14,19 @@ function Table() {
     </tr>
   </thead>
   <tbody>
-    <Tablerow/>
+     {props.result.map((guy)=> (<Tablerow 
+     first={guy.firstName}
+     last={guy.lastName}
+     email={guy.email}
+     phone={guy.phone}
+     city={guy.city}
+     photo={guy.picture}
+     id={guy.id}
+     key={guy.key}
+     />))}
   </tbody>
 </table>
-        </div>
+      
     )
 }
 

@@ -1,12 +1,12 @@
 import React from "react"
 import Header from "../src/components/Header/header"
-import Table from "../src/components/Table/table"
+import Container from "../src/components/Container/container"
 
 function App() {
   return (
     <>
     <Header />
-    <Table/>
+    <Container/>
     </>
   );
 }
