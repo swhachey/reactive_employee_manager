@@ -1,10 +1,13 @@
 import React from "react"
-import './App.css';
 import Header from "../src/components/Header/header"
+import Table from "../src/components/Table/table"
 
 function App() {
   return (
+    <>
     <Header />
+    <Table/>
+    </>
   );
 }
 

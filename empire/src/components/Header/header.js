@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css"
-import Table from "../Table/table"
+
 
 function Header() {
   return (
