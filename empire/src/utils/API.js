@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default {
-  search: function() {
-    return axios.get("https://randomuser.me/api/?results=10");
+  search: function(query) {
+    return axios.get("https://randomuser.me/api/?results=" + query);
   }
 };
