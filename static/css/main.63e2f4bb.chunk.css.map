@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Header/header.css"],"names":[],"mappings":"AAAA,EACE,iBACF,CACA,WACE,wBACF","file":"main.63e2f4bb.chunk.css","sourcesContent":["* {\n  text-align: center;\n}\n.jumbotron {\n  background-color: seagreen;\n}\n"]}
